@@ -1,3 +1,4 @@
+using TreeEditor;
 using UnityEngine;
 //using static UnityEditor.Rendering.CoreEditorDrawer<TData>;
 public class SubmarineManager : MonoBehaviour
@@ -118,7 +119,7 @@ public class SubmarineManager : MonoBehaviour
     //rileva le collisioni (ricorda: "trasparenti", trigger) con Box e Mine
     {
         Debug.Log($"Trigger by: {other.gameObject}", other.gameObject);
-    
+        
         if (other.gameObject.CompareTag("Box")) //se sei entrato all'interno "dell'area del Box"
         {
             Destroy(other.gameObject);

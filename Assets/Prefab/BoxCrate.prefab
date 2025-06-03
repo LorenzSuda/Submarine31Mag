@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7724070899966428869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.334213, y: 0.8082522, z: 39.101547}
+  m_LocalPosition: {x: -0.07080555, y: 0, z: -30.699842}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,3 +125,4 @@ MonoBehaviour:
   spawnOnDestroy: {fileID: 975524777007877934, guid: 926be76968ee575478a4687d5faabc96, type: 3}
   maxInstances: 5
   randomDelta: {x: 0, y: 0, z: 0}
+  uiManager: {fileID: 0}

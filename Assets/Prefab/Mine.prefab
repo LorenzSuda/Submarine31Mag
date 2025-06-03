@@ -271,6 +271,10 @@ PrefabInstance:
       value: Mine
       objectReference: {fileID: 0}
     - target: {fileID: -6689036041284674117, guid: b12f0026b04c812489e97553218da16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: b12f0026b04c812489e97553218da16c, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -428,6 +432,7 @@ MonoBehaviour:
   spawnOnDestroy: {fileID: 975524777007877934, guid: 926be76968ee575478a4687d5faabc96, type: 3}
   maxInstances: 5
   randomDelta: {x: 1, y: 1, z: 1}
+  uiManager: {fileID: 0}
 --- !u!1 &7336864412310409347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6998920690725194341, guid: b12f0026b04c812489e97553218da16c, type: 3}
