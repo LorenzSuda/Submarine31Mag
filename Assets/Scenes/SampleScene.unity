@@ -6341,7 +6341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30f21ca3b4ce3e4e9db063572bb6a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuel: 1
+  fuel: 100
   maxFuel: 100
   fuelUsageSpeed: 1
   mineFuelReduction: 5
